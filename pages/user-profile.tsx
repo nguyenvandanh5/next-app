@@ -91,6 +91,34 @@ export default function UserProfile(props: UserProfileProps) {
             </div>
           </div>
           <div className={`${styles.border_line}`}></div>
+          <div className={`${styles.detail_info} d-flex`}>
+            <div className={`${styles.detail_info_left}`}>
+              <p>
+                Full name
+                <span>Nguyen Thi Thanh Uyen</span>
+              </p>
+              <p>
+                Gender
+                <span>Female</span>
+              </p>
+              <p>
+                Address
+                <span>
+                  369 Nguyễn Văn Linh, P. Thạc Gián, Q. Thanh Khê, TP. Đà Nẵng
+                </span>
+              </p>
+            </div>
+            <div className={`${styles.detail_info_right}`}>
+              <p>
+                English name
+                <span>Shara</span>
+              </p>
+              <p>
+                Date of birth
+                <span>01-24-1993</span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
